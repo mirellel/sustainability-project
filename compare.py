@@ -5,7 +5,7 @@ def run_pinpoint_for_python():
     command = [
         "./pinpoint/build/pinpoint", "--", "python3",
         "code/merge_sort.py",
-        "-data", "pinpoint-experiment/sort-experiment/data/data_test_50k.txt",
+        "-data", "data/data_test_50k.txt",
         "-output", "merge_sort_python.txt"
     ]
     
@@ -27,7 +27,7 @@ def run_pinpoint_for_c():
     # Execute the compiled program
     command = [
         "./pinpoint/build/pinpoint", "--", "./merge_sort",
-        "pinpoint-experiment/sort-experiment/data/data_test_50k.txt",
+        "data/data_test_50k.txt",
         "merge_sort_c.txt"
     ]
     
@@ -48,7 +48,7 @@ def run_pinpoint_for_haskell():
     # Execute the compiled program
     command = [
         "./pinpoint/build/pinpoint", "--", "./merge_sort_haskell",
-        "pinpoint-experiment/sort-experiment/data/data_test_50k.txt",
+        "data/data_test_50k.txt",
         "merge_sort_haskell.txt"
     ]
     
