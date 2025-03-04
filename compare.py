@@ -41,7 +41,7 @@ def run_pinpoint_for_c():
 def run_pinpoint_for_haskell():
     # Compile the Haskell program
     compile_command = [
-        "/Users/hyvatmerkit/.ghcup/bin/ghc", "-o", "merge_sort_haskell", "code/merge_sort_haskell.hs"
+        "ghc", "-o", "merge_sort_haskell", "code/merge_sort_haskell.hs"
     ]
     subprocess.run(compile_command, check=True)
 
