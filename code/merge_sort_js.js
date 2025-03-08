@@ -1,3 +1,5 @@
+// Merge sort implementation in JavaScript, adapted from https://www.geeksforgeeks.org/merge-sort/
+
 const fs = require('fs')
 
 // Merge function to merge two halves of an array
@@ -53,6 +55,8 @@ function mergeSort(arr, left, right) {
     merge(arr, left, mid, right)
   }
 }
+
+// Helper functions to read and write data to files created using the GPT-4o LLM.
 
 // Function to read data from a file
 function readDataFromFile(filePath) {

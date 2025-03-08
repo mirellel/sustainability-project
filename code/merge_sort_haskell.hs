@@ -1,3 +1,6 @@
+-- Merge sort implementation in Haskell, created with the help of GPT-4o LLM.
+
+
 import System.Environment (getArgs)
 import System.IO (writeFile)
 

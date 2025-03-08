@@ -1,3 +1,8 @@
+package code;
+
+// Merge sort implementation in Java, adapted from https://www.geeksforgeeks.org/merge-sort/
+
+
 import java.io.*;
 import java.util.*;
 
@@ -52,6 +57,8 @@ public class MergeSort {
             merge(arr, left, mid, right);
         }
     }
+
+    // Helper functions to read and write data to files created using the GPT-4o LLM.
 
     // Function to read data from a file
     static int[] readDataFromFile(String filePath) throws IOException {

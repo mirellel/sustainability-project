@@ -1,4 +1,4 @@
-// C program for Merge Sort, adapted from https://www.geeksforgeeks.org/
+// C program for Merge Sort, adapted from https://www.geeksforgeeks.org/merge-sort/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -69,6 +69,7 @@ void mergeSort(int arr[], int l, int r)
     }
 }
 
+// Helper functions to read and write data to files created using the GPT-4o LLM.
 
 // Function to read data from file
 int* readDataFromFile(const char *filename, int size) {

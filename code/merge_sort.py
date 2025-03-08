@@ -1,6 +1,6 @@
-import argparse
+# Merge sort implementation in Python, adapted from https://www.geeksforgeeks.org/merge-sort/
 
-# Merge sort implementation in Python, adapted from https://www.geeksforgeeks.org/
+import argparse
 
 # Merge function that merges two halves of an array
 def merge(arr, left, mid, right):
@@ -51,6 +51,9 @@ def merge_sort(arr, left, right):
         merge_sort(arr, left, mid)
         merge_sort(arr, mid + 1, right)
         merge(arr, left, mid, right)
+
+
+# Helper functions to read and write data to files created using the GPT-4o LLM.
 
 # Function to read data from a file
 def read_data_from_file(file_path):
