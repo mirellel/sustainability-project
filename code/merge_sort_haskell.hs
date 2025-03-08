@@ -1,4 +1,4 @@
--- Merge sort implementation in Haskell, created with the help of GPT-4o LLM.
+-- Merge sort implementation in Haskell, implemented from https://stackoverflow.com/questions/37082925/haskell-merge-sort and with the help of GPT-4o LLM.
 
 
 import System.Environment (getArgs)
